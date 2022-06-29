@@ -16,7 +16,7 @@ function time(){
     currDate.toDateString();
     // console.log(`Date : ${convertDay(currDate.getDay())} / ${currDate.getDate()} / ${convertMonth(currDate.getMonth()+1)} /${currDate.getFullYear()} `);
     // console.log(`Time : ${currDate.getHours()} : ${currDate.getMinutes()} : ${currDate.getSeconds()} : ${currDate.getMilliseconds()} `);
-    span1.innerHTML= `Date : ${convertDay(currDate.getDay())} / ${currDate.getDate()} / ${convertMonth(currDate.getMonth()+1)} /${currDate.getFullYear()}`;
+    span1.innerHTML= `Date : ${convertDay(currDate.getDay())} / ${currDate.getDate()} / ${convertMonth(currDate.getMonth())} /${currDate.getFullYear()}`;
                     
     span2.innerText=`Time: ${currDate.getHours()-12}:${currDate.getMinutes()}:${(currDate.getSeconds()+1)}:${currDate.getMilliseconds()}`;
     
