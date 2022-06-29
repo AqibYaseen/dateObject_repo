@@ -26,7 +26,7 @@ function time(){
     range[3].value=currDate.getMilliseconds();
     lable[0].innerText=currDate.getHours()-12;
     lable[1].innerText=currDate.getMinutes();
-    lable[2].innerText=currDate.getSeconds();
+    lable[2].innerText=currDate.getSeconds()+1;
     lable[3].innerText=currDate.getMilliseconds();
     
 
