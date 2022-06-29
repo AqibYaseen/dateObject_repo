@@ -10,7 +10,7 @@ function time(){
     // console.log(`Date : ${convertDay(currDate.getDay())} / ${currDate.getDate()} / ${convertMonth(currDate.getMonth()+1)} /${currDate.getFullYear()} `);
     // console.log(`Time : ${currDate.getHours()} : ${currDate.getMinutes()} : ${currDate.getSeconds()} : ${currDate.getMilliseconds()} `);
     h1.innerHTML= `Date : ${convertDay(currDate.getDay())} / ${currDate.getDate()} / ${convertMonth(currDate.getMonth()+1)} /${currDate.getFullYear()} <br/>
-                    Time: ${currDate.getHours()}:${currDate.getMinutes()}:${currDate.getSeconds()}`;
+                    Time: ${currDate.getHours()}:${currDate.getMinutes()}:${currDate.getSeconds()+1}`;
 
     setTimeout(time, 1000);
 
