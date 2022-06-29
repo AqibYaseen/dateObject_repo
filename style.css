@@ -93,8 +93,11 @@ input{
         margin-top: 0;
         font-size: 1rem;
         display: inline-block;
-        width: auto;
-        border: 2px solid black;
+        width: 60%;
+        margin-left: 30%;
+        display: block;
+
+        /* border: 2px solid black; */
 
 
     }
