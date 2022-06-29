@@ -24,10 +24,10 @@ function time(){
     range[1].value=currDate.getMinutes();
     range[2].value=currDate.getSeconds();
     range[3].value=currDate.getMilliseconds();
-    lable[0].innerText=currDate.getHours()-12;
-    lable[1].innerText=currDate.getMinutes();
-    lable[2].innerText=currDate.getSeconds()+1;
-    lable[3].innerText=currDate.getMilliseconds();
+    lable[0].innerText=`currDate.getHours()-12 :`;
+    lable[1].innerText=`currDate.getMinutes() :`;
+    lable[2].innerText=`currDate.getSeconds()+1:`;
+    lable[3].innerText=`currDate.getMilliseconds():`;
     
 
 
